@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+tensorflow = "*"
+pandas = "*"
+sklearn = "*"
+statsmodels = "==0.12.1"
+numpy = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
